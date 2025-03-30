@@ -1,6 +1,9 @@
-import {Link} from "react-router-dom";
+import { useState } from "react";
+import {Link, useNavigate} from "react-router-dom";
 
 function Header() {
+
+
     return (
       <header className="bg-blue-600 text-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
@@ -23,6 +26,10 @@ function Header() {
 
              <Link to="/contact">
              <li className="hover:text-gray-300 transition duration-300 cursor-pointer">Contact</li>
+             </Link>
+
+             <Link to="/demo">
+             <li className="hover:text-gray-300 transition duration-300 cursor-pointer">Demo</li>
              </Link>
           </ul>
         </div>
