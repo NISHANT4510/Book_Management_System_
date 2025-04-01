@@ -1,7 +1,7 @@
 
 import { Link } from "react-router-dom";
 
-function Header({ setFilteredBooks, setSearchText, allBooksData, handleSearch }) {
+function Header({ setFilteredBooks, setSearchText, allBooksData}) {
   function resetSearch() {
     setSearchText("");
     setFilteredBooks(allBooksData);

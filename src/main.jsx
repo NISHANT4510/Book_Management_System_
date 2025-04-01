@@ -7,7 +7,7 @@ import About from './Component/About.jsx';
 import Contact from './Component/Contact.jsx';
 import Error from './Component/Error.jsx';
 import BookList from "./Component/BookList.jsx";
-import { Books } from './assets/utils/mockdata.js';
+// import { Books } from './assets/utils/mockdata.js';
 import BookDetails from './Component/BookDetails.jsx';
 import Demo from './Component/Demo.jsx';
 
